@@ -1,0 +1,83 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\WorkPlace\\Learning\\MicroService\\Kafka_Sample\\SampleCode\\KafkaSample\\KafkaWebAPI\\KafkaWebAPI.csproj": {}
+  },
+  "projects": {
+    "D:\\WorkPlace\\Learning\\MicroService\\Kafka_Sample\\SampleCode\\KafkaSample\\KafkaWebAPI\\KafkaWebAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\WorkPlace\\Learning\\MicroService\\Kafka_Sample\\SampleCode\\KafkaSample\\KafkaWebAPI\\KafkaWebAPI.csproj",
+        "projectName": "KafkaWebAPI",
+        "projectPath": "D:\\WorkPlace\\Learning\\MicroService\\Kafka_Sample\\SampleCode\\KafkaSample\\KafkaWebAPI\\KafkaWebAPI.csproj",
+        "packagesPath": "C:\\Users\\kanna\\.nuget\\packages\\",
+        "outputPath": "D:\\WorkPlace\\Learning\\MicroService\\Kafka_Sample\\SampleCode\\KafkaSample\\KafkaWebAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kanna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\WorkPlace\\Learning\\MicroService\\UAKCart\\package": {},
+          "D:\\WorkPlace\\Product\\PerfoEng\\dll": {},
+          "D:\\WorkPlace\\TechNxtZ\\EDM\\packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Confluent.Kafka": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
